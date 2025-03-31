@@ -1,0 +1,33 @@
+# البيئة الافتراضية
+venv/
+env/
+.env
+
+# ملفات Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# السجلات
+*.log
+logs/
+bot.log
+
+# الإعدادات
+config.json
+settings.json
+
+# ملفات النظام
+.DS_Store
+Thumbs.db
+
+# ملفات IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ملفات مؤقتة
+temp/
+tmp/ 

@@ -1,0 +1,53 @@
+{
+    "bot_config": {
+        "version": "6.0.0",
+        "status_type": [
+            "watching",
+            3
+        ],
+        "status_text": "نظام تذكرة"
+    },
+    "channel_config": {
+        "logs_channel": ,
+        "archive_channel": ,
+        "tickets_category": ,
+        "feedback_channel": 
+    },
+    "priority_config": {
+        "critical": {
+            "emoji": "⚡",
+            "label": "حرج",
+            "response_time": "30 دقيقة",
+            "color": 16711680,
+            "role": 
+        },
+        "urgent": {
+            "emoji": "🔴",
+            "label": "عاجل",
+            "response_time": "ساعتين",
+            "color": 16753920,
+            "role": 
+        },
+        "normal": {
+            "emoji": "🟢",
+            "label": "عادي",
+            "response_time": "24 ساعة",
+            "color": 65280,
+            "role": 
+        }
+    },
+    "ticket_stats": {
+        "total_tickets": 19,
+        "open_tickets": 6,
+        "closed_tickets": 13,
+        "categories": {
+            "critical": 9,
+            "normal": 3,
+            "urgent": 7
+        },
+        "ratings": {
+            "5": 9,
+            "1": 1
+        }
+    }
+}
